@@ -74,7 +74,7 @@ function eq(){
 }
 /* Temas da página */
 function claro(){
-    var body = document.getElementById("idBodyCalculadora");
+    var body = document.querySelector(".bodyCalculadora");
 
     body.style.transition= "background-color 0.5s";
     body.style.backgroundColor = "#F7F9FF";
@@ -82,7 +82,7 @@ function claro(){
 
 }
 function escuro(){
-    var body = document.getElementById("idBodyCalculadora");
+    var body = document.querySelector(".bodyCalculadora");
 
     body.style.transition= "background-color 0.5s";
     body.style.backgroundColor = "#151515";
