@@ -18,4 +18,5 @@ Digite os valores de (a,b,c) da equação e aperte no botão calcular.
 Caso tenha um "0" em quaisquer dos valores (a,b,c) a calculadora irá apontar que a equação não é de segundo grau. (com o texto em vermelho)
 Caso o valor do delta (explicado no site) seja negativo, o site ira apontar que não existe soluções reais.
 
-Você pode mudar o tema do fundo da calculadora para: claro ou escuro.
+Você pode mudar o tema do fundo da calculadora para: claro ou escuro. <br>
+<img src="https://github.com/Atr0fy/Functiontrix/blob/main/img/Calculadora.JPG" width="256px">
