@@ -1,0 +1,338 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: "AudioWide";
+    src: url(Audiowide-Regular.ttf);
+}
+/* <<<<<Mudar Tema>>>>> */
+.mudar-tema {
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+}
+.mudar-tema button{
+    font-size: 15px;
+    margin-left: 10px;
+    width: 100px;
+}
+/*<<<<<Calculadora>>>>> */
+.bodyCalculadora{
+    text-align: center;
+    padding-top: 24px;
+    box-shadow: inset 0px 2px 0px 0px #000000;
+    background-color: #151515;
+    color: #ffffff;
+}
+.bodyCalculadora h1{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    color: #4B8BF4;
+    font-size: 42px;
+  
+}
+.bodyCalculadora p{
+    padding: 10px;
+}
+input, label, button{
+    border: 0;
+    border-radius: 10px;
+    font-size: 32px;
+}
+.voltar button{
+    font-size: 16px;
+    width: max-content;
+}
+button{
+    padding: 5px;
+    color: #4B8BF4;
+    background-color: #EFEFFF;
+    font-family: "Audiowide", sans-serif;
+    width: 256px;
+    cursor: pointer;
+    border: 1px solid #4B8BF4;
+    text-shadow: 0.0em 0.2em 0.1em #D3D3E2; 
+}
+button:hover{
+    color: white;
+    background-color: #4B8BF4;
+    text-shadow: 0.0em 0.2em 0.1em #386ec4; 
+}
+.classResposta{
+    height: 212px;
+    background-color: #ffffff;
+    border: 3px solid #4B8BF4;
+    border-radius: 10px;
+    width: 512px;
+    color: #000000;
+    display: inline-block;
+}
+.classResposta label{
+    color: #151515;
+}
+.bodyCalculadora input{
+    padding: 5px;
+    height: 48px;
+    width: 807px;
+    background-color: #E2E2EB;
+}
+.bodyCalculadora input::placeholder{
+   font-size: 30px;
+   font-family: "AudioWide", sans-serif;
+}
+/* <<<<<Calculadora>>>>>
+
+<<<<<COMEÇO DO CABEÇALHO>>>>> */
+header{
+    background-color: #151515;
+    display: flex;
+    height: 72px;
+    align-items: center;
+    justify-content: space-around;
+}
+.perfil{
+    width: 48px;
+    height: 48px;
+    background-image: url(../img/profile.jpg);
+    background-size: cover;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+    color: white;
+    margin-top: 16px;
+    margin-left: 50px;
+}
+.perfil:hover .hidden{
+    display: block;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    display: flex;
+}
+.logo-texto{
+    margin-left: 16px;
+    align-content: center;
+}
+nav{
+    font-size: 24px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    margin-right: 64px;
+    font-weight: bold;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav ul li a:hover{
+   color: #4B8BF4;
+}
+/* <<<<<Fim do cabeçalho>>>>>
+<<<<<Bloco 1>>>>> */
+.bloco1{
+    box-shadow: inset 0px 2px 0px 0px #000000;
+    display: flex;
+    background-color: #151515;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo-bloco1 p{
+    color: #E2E2EB;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.icones-bloco1{
+    opacity: 10%;
+}
+/* <<<<<FIM DO BLOCO 1>>>>>
+<<<<<BLOCO 2>>>>> */
+.bloco2{
+    box-shadow: inset 0px 2px 5px #1d1d1d;
+    background-image: url(../img/dhru-j-VT-dBtF8kb0-unsplash.jpg);
+    background-size: cover;
+    padding: 112px 0px 112px 0px;
+    height: 640px;
+    align-content: center;
+}
+.bloco2 p{
+    color: white;
+    font-size: 40px;
+    font-family: 'Audiowide', sans-serif;
+    margin-left: 48px;
+}
+/* <<<<<FIM DO BLOCO 2>>>>>
+
+<<<<<BLOCO 3>>>>> */
+.bloco3{
+    box-shadow: inset 0px 2px 5px #1d1d1d;
+    background-image: url(../img/bloco3fundo.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 196px 0px 196px 0px;
+    align-items: center;
+}
+.bloco3 p{
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.bloco3-texto{
+    width: 615px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px #000000;
+}
+.bloco3-texto p{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 16px;
+}
+.bloco3-gif img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #000000;
+    
+}
+.bloco3-container1{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+/* <<<<<FIM DO BLOCO 3>>>>>
+<<<<<BLOCO 4>>>>> */
+.bloco4{
+    background-image: url(../img/triangle\ \(black\).jpg);
+    background-size: cover;
+    padding: 196px 0px 196px 0px;
+}
+.bloco4 p{
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.bloco4-img img{
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px #000000;
+}
+.bloco4-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bloco4-container2{
+    text-align: center;
+}
+.bloco4-texto{
+    width: 672px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px #000000;
+}
+.bloco4-texto p{
+    padding: 16px;
+    font-size: 22px;
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* <<<<<FIM DO BLOCO 4>>>>>
+<<<<<BLOCO 5>>>>>*/
+.bloco5{
+    background-color: #151515;
+    text-align: center;
+    padding: 64px;
+}
+.bloco5 p{
+    text-align: center;
+    color: white;
+    font-family: 'AudioWide';
+}
+.sobre-nos button{
+    font-size: 10px;
+    width: 100px;
+}
+.sobre-nos p{
+    padding-top: 20px;
+}
+/* <<<<<FIM DO BLOCO 5>>>>>
+<<<<<RODAPE>>>>> */
+.rodape{
+    background-color: #242424;
+    display: flex;
+    justify-content: space-between;
+    padding: 42px;
+}
+.rodape p{
+    color: white;
+    font-size: 20px;
+}
+.rodape-img{
+    display: flex;
+}
+.rodape-img a{
+    display: flex;
+}
+.curso{
+   align-content: center;
+}
+/* <<<<<FIM DO RODAPE>>>>>
+<<<<<QUEM SOMOS>>>>> 
+<<<<<Bloco1>>>>> */
+.quemsomos{
+    background-color: #373839;
+    display: flex;
+    padding: 72px;
+    justify-content: space-evenly;
+}
+.QS-img img{
+    border-radius: 100px;
+}
+.QS-titulo{
+    font-size: 40px;
+    color: white;
+    font-family: "AudioWide";
+}
+.QS-texto{
+    width: 500px;
+    font-size: 27px;
+    color: white;
+}
+/*<<<<<Bloco2>>>>> */
+.quemsomos2{
+    background-color: #373839;
+    text-align: center;
+    padding: 64px 0px 64px 0px;
+}
+.QS-nomes{
+
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+.QS-texto2{
+    font-size: 27px;
+    color: white;
+}
+.quemsomos2 img{
+    border-radius: 50px;
+}
+.QS-equipe{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
