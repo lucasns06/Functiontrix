@@ -99,12 +99,16 @@ header{
     background-size: cover;
     border-radius: 100px;
     cursor: pointer;
+    border: 1px solid #151515;
+}
+.perfil:hover{
+    border: 1px solid #4B8BF4;
 }
 .hidden{
     display: none;
     color: white;
     margin-top: 16px;
-    margin-left: 50px;
+    margin-left: 52px;
 }
 .perfil:hover .hidden{
     display: block;
