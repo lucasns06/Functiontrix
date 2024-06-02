@@ -31,20 +31,22 @@
     <h1>Calculadora</h1>
     
     <p><strong>Exemplo:</strong> Encontrar as raizes da equação x² + 2x -15 = 0</p>
-
-    <label for="A">A</label>
+<form>
+   
     <input type="number" placeholder="Digite o valor de A" autofocus id="num1" >   <br><br>
-    <label for="B">B</label>
+    
     <input type="number" placeholder="Digite o valor de B" id="num2" > <br><br>
-    <label for="C">C</label>
-    <input type="number" placeholder="Digite o valor de C" id="num3" > <br><br>
-    
-    <button class="bl" onclick="eq()">Calcular</button>
-    
-    <br><br>
+   
+    <input type="number" placeholder="Digite o valor de C" id="num3"> <br><br>
+
+    <input onclick="limpar()" type='reset' value='Limpar' class="btn-form-limpar" style=" width: max-content;"/>
+    <input onclick="eq()" value="Calcular" type="button" class="btn-form" style=" width: max-content">
+</form>
+    <br>
     <div class="classResposta">
         <label id="idResposta"></label>
     </div>
+
     <br><br><br><br><br><br>
     <a href="index.html" class="voltar"><button>Página inicial</button></a> 
     <a href="QuemSomos.html" class="voltar"><button>Quem somos</button></a>

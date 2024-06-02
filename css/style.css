@@ -35,7 +35,7 @@
 .bodyCalculadora p{
     padding: 10px;
 }
-input, label, button{
+input, label, button, .btn-form{
     border: 0;
     border-radius: 10px;
     font-size: 32px;
@@ -44,7 +44,7 @@ input, label, button{
     font-size: 16px;
     width: max-content;
 }
-button{
+button, .btn-form, .btn-form-limpar{
     padding: 5px;
     color: #4B8BF4;
     background-color: #EFEFFF;
@@ -54,11 +54,18 @@ button{
     border: 1px solid #4B8BF4;
     text-shadow: 0.0em 0.2em 0.1em #D3D3E2; 
 }
-button:hover{
+button:hover, .btn-form:hover{
     transition: all 0.2s;
     color: white;
     background-color: #4B8BF4;
     text-shadow: 0.0em 0.2em 0.1em #386ec4; 
+}
+.btn-form-limpar:hover{
+    transition: all 0.2s;
+    color: white;
+    background-color: #f44b4b;
+    text-shadow: 0.0em 0.2em 0.1em #c43838; 
+    border: 1px solid #f44b4b;
 }
 .classResposta{
     height: 212px;
@@ -67,7 +74,8 @@ button:hover{
     border-radius: 10px;
     width: 512px;
     color: #000000;
-    display: inline-block;
+    display: block;
+    margin: auto;
 }
 .classResposta label{
     color: #151515;
@@ -75,7 +83,7 @@ button:hover{
 .bodyCalculadora input{
     padding: 5px;
     height: 48px;
-    width: 807px;
+    width: 548px;
     background-color: #E2E2EB;
 }
 .bodyCalculadora input::placeholder{

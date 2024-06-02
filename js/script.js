@@ -1,5 +1,4 @@
 function eq(){
-
     var a = parseFloat(document.getElementById("num1").value);
     var b = parseFloat(document.getElementById("num2").value);
     var c = parseFloat(document.getElementById("num3").value);
@@ -70,7 +69,10 @@ function eq(){
            
     }
   
-
+}
+function limpar(){
+  
+    document.getElementById("idResposta").innerText = "";
 }
 /* Temas da página */
 function claro(){
