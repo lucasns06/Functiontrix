@@ -131,9 +131,6 @@ header{
     display: flex;
     align-items: center;
 }
-.logo a{
-    display: flex;
-}
 .logo-texto{
     margin-left: 16px;
     align-content: center;
@@ -183,6 +180,11 @@ nav ul a:hover{
 }
 .icones-bloco1{
     opacity: 10%;
+    animation: abl1 1s infinite alternate-reverse;
+}
+@keyframes abl1 {
+
+    100%{transform: translate(10px);}
 }
 /* <<<<<FIM DO BLOCO 1>>>>>
 <<<<<BLOCO 2>>>>> */
