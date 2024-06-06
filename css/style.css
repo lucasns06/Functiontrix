@@ -34,7 +34,10 @@
     font-weight: 400;
     color: #4B8BF4;
     font-size: 42px;
-  
+    animation: ah1 5s infinite;
+}
+@keyframes ah1{
+    50% {letter-spacing: 8px;}
 }
 .bodyCalculadora p{
     padding: 10px;
