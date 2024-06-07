@@ -83,9 +83,6 @@ button:hover, .btn-form:hover{
     color: #000000;
     margin: auto;
 }
-.classResposta label{
-    color: #151515;
-}
 .bodyCalculadora input{
     padding: 5px;
     height: 48px;
