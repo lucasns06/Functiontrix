@@ -9,21 +9,11 @@ function eq(){
         document.getElementById("idResposta").innerText = `Esta é uma equação de 1º grau`;
         document.getElementById("idResposta").style.color = "red";
     }
-    else
-    {
-        if( b == 0)
+    else if( b == 0 || c == 0)
             {
                 document.getElementById("idResposta").innerText = `Equação de 2º grau incompleta`;
                 document.getElementById("idResposta").style.color = "red";
-            }
-            else
-            {
-                if( c == 0)
-                    {
-                    document.getElementById("idResposta").innerText = `Equação de 2º grau incompleta`;
-                    document.getElementById("idResposta").style.color = "red";
-                    }
-                    else
+            }else
                     {
                         if( delta < 0 )
                         {
@@ -47,15 +37,8 @@ function eq(){
                                 {
                                  var raiz1 = (-b + Math.sqrt(delta) )/ (2*a);
                                  var raiz2 = (-b - Math.sqrt(delta) )/ (2*a);
-                                    if( raiz1 > raiz2)
-                                        {
-                                            maior = raiz1;
-                                            menor = raiz2;
-                                        }
-                                        else{
-                                            maior = raiz2;
-                                            menor = raiz1;
-                                        }
+                                    var maior = Math.max(raiz1,raiz2);
+                                    var menor = Math.min(raiz1,raiz2);
                                     document.getElementById("idResposta").innerText = `1-Raiz: ${raiz1} 
                                     2-Raiz: ${raiz2}  
 
@@ -66,10 +49,6 @@ function eq(){
                         }
                     }
             }
-           
-    }
-  
-}
 function limpar(){
   
     document.getElementById("idResposta").innerText = "";
