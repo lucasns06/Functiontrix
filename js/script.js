@@ -26,9 +26,8 @@ function eq(){
                             if( delta == 0)
                             {
                                 raiz1 = (-b + Math.sqrt(delta) )/ (2*a);
-                                raiz2 = (-b - Math.sqrt(delta) )/ (2*a);
                                 document.getElementById("idResposta").innerText = `Raiz Dupla: ${raiz1}
-                                S = { ${raiz1}, ${raiz2} }
+                                S = { ${raiz1}, ${raiz1} }
                                 
                                 (As duas raizes são iguais)`;
                                 document.getElementById("idResposta").style.color = "black";
