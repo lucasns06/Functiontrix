@@ -1,5 +1,5 @@
 # Functiontrix
-O site é de uma empresa de matemática fictícia "Functiontrix" feito por estudantes do curso técnico de **Desenvolvimento de sistemas**.
+O site é de uma empresa de matemática fictícia "Functiontrix" feito por um estudante do curso técnico de **Desenvolvimento de sistemas**.
 😃
 # Dentro do site
 

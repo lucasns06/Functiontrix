@@ -6,11 +6,10 @@
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/script.js"></script>
 
-    <title>Functiontrix</title>
+    <title>Functiontrix: Calculadora</title>
 </head>
-
 <body>
-    <!--header-->
+<!--Cabeçalho-->
     <header>
         <div class="logo">
             <img src="img/math-operations-bold-svgrepo-com 1.svg" >
@@ -24,58 +23,56 @@
                 <a href="calculadora.html"><li><img src="img/calculator-svgrepo-com.svg" width="24" height="24">Calculadora</li></a>
             </ul>
         </nav>
-<div class="perfil"><p class="hidden">Lucas</p></div> 
+        <div class="perfil"><p class="hidden">Lucas</p></div> 
     </header>
-<div class="bodyCalculadora">
-    <h1>Calculadora</h1>
-    
-    <p><strong>Exemplo:</strong> Encontrar as raizes da equação x² + 2x -15 = 0</p>
-<form>
-    <input type="number" placeholder="Digite o valor de A" autofocus id="num1" > <br><br>
-    
-    <input type="number" placeholder="Digite o valor de B" id="num2" > <br><br>
-   
-    <input type="number" placeholder="Digite o valor de C" id="num3"> <br><br>
+<!--corpo-->
+    <div class="bodyCalculadora">
+        <h1>Calculadora</h1>
+        <p><strong>Exemplo:</strong> Encontrar as raizes da equação x² + 2x -15 = 0</p>
+        <form>
+            <input type="number" placeholder="Digite o valor de A" autofocus id="num1"> <br><br>
+            <input type="number" placeholder="Digite o valor de B" id="num2"> <br><br>
+            <input type="number" placeholder="Digite o valor de C" id="num3"> <br><br>
 
-    <input onclick="limpar()" type='reset' value='Limpar' class="btn-form-limpar" style=" width: max-content;"/>
-    <input onclick="eq()" value="Calcular" type="button" class="btn-form" style=" width: max-content">
-</form>
-    <br>
-    <div class="classResposta">
-        <label id="idResposta"></label>
-    </div>
+            <input onclick="limpar()" type='reset' value='Limpar' class="btn-form-limpar" style=" width: max-content;"/>
+            <input onclick="eq()" value="Calcular" type="button" class="btn-form" style=" width: max-content">
+        </form> <br>
 
-    <br><br><br><br><br><br>
-    <a href="index.html" class="voltar"><button>Página inicial</button></a> 
-    <a href="QuemSomos.html" class="voltar"><button>Quem somos</button></a>
-    <br><br>
-    <div class="mudar-tema">
-        <p>Tema:</p>
-        <button onclick="claro()">Claro</button>
-        <button onclick="escuro()">Escuro</button>
-    </div>
-    <br><br>
+        <div class="classResposta">
+            <label id="idResposta"></label>
+        </div>  <br><br><br><br><br><br>
+
+        <a href="index.html" class="voltar"><button>Página inicial</button></a> 
+        <a href="QuemSomos.html" class="voltar"><button>Quem somos</button></a>  <br><br>
+
+        <div class="mudar-tema">
+            <p>Tema:</p>
+            <button onclick="claro()">Claro</button>
+            <button onclick="escuro()">Escuro</button>
+        </div> <br><br>
+    </div> 
+<!--rodape-->
     <div class="rodape">
-        <p>Feito por: <br><br>
-            Lucas Nascimento<br>
+        <p>
+            Feito por: <br><br>
+            Lucas Nascimento <br>
         </p>
-        <p>Professores: <br> <br>
+        <p>
+            Professores: <br><br>
             Edson <br>
+            Quitéria <br>
             Guilherme <br>
             Otto <br>
-            Quitéria <br>
             Fatima <br>
-
-            </p>
-        <p class="curso">Curso: Desenvolvimento de sistemas <br> <br>
-           Etec Horácio Augusto da Silveira 
+        </p>
+        <p class="curso">
+        Curso: Desenvolvimento de sistemas <br><br>
+        Etec Horácio Augusto da Silveira 
         </p>
         <div class="rodape-img">
             <a href="https://etechoracio.com.br/has/" target="_blank"><img src="img/image 4.svg"></a>
         </div>
     </div>
-</div> 
-
 </body>
 
 </html>

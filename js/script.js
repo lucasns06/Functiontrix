@@ -10,42 +10,39 @@ function eq(){
         document.getElementById("idResposta").style.color = "red";
     }
     else if( b == 0 || c == 0)
-            {
+        {
                 document.getElementById("idResposta").innerText = `Equação de 2º grau incompleta`;
                 document.getElementById("idResposta").style.color = "red";
-            }else
+        }else
+            {
+            if( delta < 0 )
+                {
+                    document.getElementById("idResposta").innerText = `Ɇ Raiz Real
+                    (não possui soluções reais)`;
+                    document.getElementById("idResposta").style.color = "red";
+                }else
                     {
-                        if( delta < 0 )
+                    if( delta == 0)
                         {
-                            document.getElementById("idResposta").innerText = `Ɇ Raiz Real
-                            (não possui soluções reais)`;
-                            document.getElementById("idResposta").style.color = "red";
-                        }
-                        else
-                        {
-                            if( delta == 0)
+                        raiz1 = (-b + Math.sqrt(delta) )/ (2*a);
+                        document.getElementById("idResposta").innerText = `Raiz Dupla: ${raiz1}
+                        S = { ${raiz1}, ${raiz1} }
+                        
+                        (As duas raizes são iguais)`;
+                        document.getElementById("idResposta").style.color = "black";
+                        }else
                             {
-                                raiz1 = (-b + Math.sqrt(delta) )/ (2*a);
-                                document.getElementById("idResposta").innerText = `Raiz Dupla: ${raiz1}
-                                S = { ${raiz1}, ${raiz1} }
-                                
-                                (As duas raizes são iguais)`;
-                                document.getElementById("idResposta").style.color = "black";
-                            }
-                            else
-                                {
-                                 var raiz1 = (-b + Math.sqrt(delta) )/ (2*a);
-                                 var raiz2 = (-b - Math.sqrt(delta) )/ (2*a);
-                                    document.getElementById("idResposta").innerText = `1-Raiz: ${raiz1} 
-                                    2-Raiz: ${raiz2}  
+                            var raiz1 = (-b + Math.sqrt(delta) )/ (2*a);
+                            var raiz2 = (-b - Math.sqrt(delta) )/ (2*a);
+                            document.getElementById("idResposta").innerText = `1-Raiz: ${raiz1} 
+                            2-Raiz: ${raiz2}  
 
-                                    S = { ${raiz1}, ${raiz2} }`;
-                                    document.getElementById("idResposta").style.color = "black";
-                                    
-                                }
-                        }
+                            S = { ${raiz1}, ${raiz2} }`;
+                            document.getElementById("idResposta").style.color = "black";    
+                            }
                     }
             }
+}
 function limpar(){
     document.getElementById("idResposta").innerText = "";
 }
