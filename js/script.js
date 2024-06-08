@@ -2,7 +2,7 @@ function eq(){
     var a = parseFloat(document.getElementById("num1").value);
     var b = parseFloat(document.getElementById("num2").value);
     var c = parseFloat(document.getElementById("num3").value);
-    var delta = (b*b) - 4*a*c;
+    var delta = b*b - 4*a*c;
     
   if ( a == 0)
     {
