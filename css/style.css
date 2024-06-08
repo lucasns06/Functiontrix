@@ -41,6 +41,7 @@
 }
 .bodyCalculadora p{
     padding: 10px;
+    font-family: "Oswald";
 }
 input, label, button, .btn-form{
     border: 0;
@@ -92,7 +93,7 @@ button:hover, .btn-form:hover{
 .bodyCalculadora input::placeholder{
    font-size: 30px;
    opacity: 50%;
-   font-family: "AudioWide";
+   font-family: "Oswald";
 }
 /* <<<<<Calculadora>>>>>
 
