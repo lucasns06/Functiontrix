@@ -1,7 +1,4 @@
 # Functiontrix
-
-A **Functiontrix** é um site de cálculo de Equação de segundo grau.
-
 O site é de uma empresa de matemática fictícia "Functiontrix" feito por estudantes do curso técnico de **Desenvolvimento de sistemas**.
 😃
 # Dentro do site
