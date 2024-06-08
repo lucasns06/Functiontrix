@@ -2,7 +2,7 @@ function eq(){
     var a = parseFloat(document.getElementById("num1").value);
     var b = parseFloat(document.getElementById("num2").value);
     var c = parseFloat(document.getElementById("num3").value);
-    var delta = (b*b) - 4*a*c;
+    var delta = b*b - 4*a*c;
     
   if ( a == 0)
     {
@@ -36,12 +36,10 @@ function eq(){
                                 {
                                  var raiz1 = (-b + Math.sqrt(delta) )/ (2*a);
                                  var raiz2 = (-b - Math.sqrt(delta) )/ (2*a);
-                                    var maior = Math.max(raiz1,raiz2);
-                                    var menor = Math.min(raiz1,raiz2);
                                     document.getElementById("idResposta").innerText = `1-Raiz: ${raiz1} 
                                     2-Raiz: ${raiz2}  
 
-                                    S = { ${menor}, ${maior} }`;
+                                    S = { ${raiz1}, ${raiz2} }`;
                                     document.getElementById("idResposta").style.color = "black";
                                     
                                 }
@@ -49,7 +47,6 @@ function eq(){
                     }
             }
 function limpar(){
-  
     document.getElementById("idResposta").innerText = "";
 }
 /* Temas da página */
