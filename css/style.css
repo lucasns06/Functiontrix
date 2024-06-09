@@ -134,9 +134,6 @@ header{
     margin-left: 16px;
     align-content: center;
 }
-nav{
-    font-size: 24px;
-}
 nav ul{
     display: flex;
 }
@@ -144,6 +141,10 @@ nav ul a{
     text-decoration: none;
     color: white;
     margin-right: 42px;
+    font-size: 24px;
+}
+nav ul a:hover{
+    color: #4B8BF4;
 }
 nav ul img{
     padding-right: 4px;
@@ -152,14 +153,6 @@ nav ul li{
     display: flex;
     align-items: center;
     font-family: "Oswald";
-}
-nav ul li a{
-    text-decoration: none;
-    color: #ffffff;
-    margin-right: 64px;
-}
-nav ul a:hover{
-   color: #4B8BF4;
 }
 /* <<<<<Fim do cabeçalho>>>>>
 <<<<<Bloco 1>>>>> */
