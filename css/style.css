@@ -225,7 +225,7 @@ nav ul li{
     border-radius: 20px;
     box-shadow: 0px 0px 30px #000000;
 }
-.bloco3-container1{
+.bloco3-container{
    display: flex;
    justify-content: space-evenly;
    align-items: center;
