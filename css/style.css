@@ -129,13 +129,20 @@ table{
     text-align: left;
 }
 .btn-table{
+    transition: 0;
     width: 128px;
+    border-radius: 0;
+}
+#idResposta2{
+ text-align: right;
+ font-size: 30px;
+ padding: 0;
 }
 .classResposta2{
-    height: 56px;
+    height: 48px;
     background-color: #ffffff;
     border: 3px solid #4B8BF4;
-    border-radius: 10px;
+    border-radius: 0;
     width: 512px;
     color: #000000;
     margin: auto;

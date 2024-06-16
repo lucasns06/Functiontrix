@@ -1,3 +1,4 @@
+/* Calculadora equação de segundo grau */
 function eq(){
     var a = parseFloat(document.getElementById("num1").value);
     var b = parseFloat(document.getElementById("num2").value);
@@ -61,4 +62,24 @@ function escuro(){
     body.style.transition= "background-color 0.5s";
     body.style.backgroundColor = "#151515";
     body.style.color = "#FFFFFF";
+}
+/* Calculadora basica */
+function insert(num)
+{
+   var numero = document.getElementById('idResposta2').innerHTML;
+   document.getElementById('idResposta2').innerHTML = numero + num;
+}
+function limpar2(){
+    document.getElementById("idResposta2").innerHTML = "";
+}
+function back(){
+   var resultado = document.getElementById("idResposta2").innerHTML;
+   document.getElementById("idResposta2").innerHTML = resultado.substring(0, resultado.length -1 );
+}
+function calculo(){
+    var resultado = document.getElementById("idResposta2").innerHTML;
+    if(resultado)
+    {
+        document.getElementById("idResposta2").innerHTML = eval(resultado);
+    }
 }
