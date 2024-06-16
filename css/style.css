@@ -10,6 +10,33 @@
     font-family: "Oswald";
     src: url(Oswald-VariableFont_wght.ttf);
 }
+/* <<<<<INICIO>>>>> */
+.container-produtos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.produtos{
+    width: 256px;
+    height: 256px;
+    background-color: white;
+    border-radius: 22px;
+    outline: 4px solid white;
+}
+.produtos:hover{
+    transition: all 0.2s;
+    outline: 4px solid #4B8BF4;
+    a{color: #4B8BF4;}
+    transform: translate(0px, 10px);
+}
+.produtos a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-family: "Oswald";
+    font-weight: bold;
+}
+
 /* <<<<<Mudar Tema>>>>> */
 .mudar-tema {
     align-items: center;
@@ -175,22 +202,23 @@ nav ul li{
     animation: abl1 1s infinite alternate-reverse;
 }
 @keyframes abl1 {
-    100%{transform: translate(10px);}
+    100%{transform: translate(0px, 10px);}
 }
 /* <<<<<FIM DO BLOCO 1>>>>>
 <<<<<BLOCO 2>>>>> */
 .bloco2{
     box-shadow: inset 0px 2px 5px #1d1d1d;
-    background-image: url(../img/dhru-j-VT-dBtF8kb0-unsplash.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url(../img/dhru-j-VT-dBtF8kb0-unsplash.jpg);
     background-size: cover;
-    height: 640px;
-    align-content: center;
+    height: 100vh;
+    text-align: center;
 }
 .bloco2 p{
+    padding-top: 62px;
     color: white;
-    font-size: 40px;
+    font-size: 92px;
     font-family: 'Audiowide', sans-serif;
-    margin-left: 48px;
+    animation: abl1 1s infinite alternate;  
 }
 /* <<<<<FIM DO BLOCO 2>>>>>
 
