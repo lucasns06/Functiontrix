@@ -122,9 +122,25 @@ button:hover, .btn-form:hover{
    opacity: 50%;
    font-family: "Oswald";
 }
-/* <<<<<Calculadora>>>>>
-
-<<<<<COMEÇO DO CABEÇALHO>>>>> */
+/* <<<<<Calculadora2 grau>>>>>
+/* <<<<<Calculadora basica>>>>>*/
+table{
+    margin: auto;
+    text-align: left;
+}
+.btn-table{
+    width: 128px;
+}
+.classResposta2{
+    height: 56px;
+    background-color: #ffffff;
+    border: 3px solid #4B8BF4;
+    border-radius: 10px;
+    width: 512px;
+    color: #000000;
+    margin: auto;
+}
+/* <<<<<COMEÇO DO CABEÇALHO>>>>> */
 header{
     background-color: #151515;
     display: flex;
