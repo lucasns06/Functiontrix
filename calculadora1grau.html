@@ -25,7 +25,7 @@
             <a href="QuemSomos.html">
                 <li><img src="img/person-svgrepo-com.svg" width="24" height="24">Sobre</li>
             </a> 
-            <a href="index.html">
+            <a href="materiais.html">
                 <li><img src="img/calculator-svgrepo-com.svg" width="24" height="24">Materiais</li>
             </a>
         </ul>
@@ -35,17 +35,18 @@
 <!--corpo-->
     <div class="bodyCalculadora">
         <h1>Calculadora de 1º grau</h1> <br> <br>
+        <p>Exemplo de uma equação de primeiro grau: x + 4 = 12</p>
         <form>
-            <input type="number" placeholder="Digite o valor de A" autofocus id="num1"> <br><br>
-            <input type="number" placeholder="Digite o valor de B" id="num2"> <br><br>
-            <input type="number" placeholder="Digite o valor de C" id="num3"> <br><br>
+            <input type="number" placeholder="Digite o valor de A" autofocus id="n1"> <br><br>
+            <input type="number" placeholder="Digite o valor de B" id="n2"> <br><br>
 
-            <input onclick="limpar()" type='reset' value='Limpar' class="btn-form-limpar" style=" width: max-content;"/>
-            <input onclick="eq()" value="Calcular" type="button" class="btn-form" style=" width: max-content">
+
+            <input onclick="limpar3()" type='reset' value='Limpar' class="btn-form-limpar" style=" width: max-content;"/>
+            <input onclick="eq2()" value="Calcular" type="button" class="btn-form" style=" width: max-content">
         </form> <br>
 
         <div class="classResposta">
-            <label id="idResposta"></label>
+            <label id="idResposta3"></label>
         </div>  <br><br><br><br><br><br>
 
         <a href="inicio.html" class="voltar"><button>Página inicial</button></a> 

@@ -26,7 +26,7 @@
 .produtos:hover{
     transition: all 0.2s;
     outline: 4px solid #4B8BF4;
-    a{color: #4B8BF4;}
+    color: #4B8BF4;
     transform: translate(0px, 10px);
 }
 .produtos a{
@@ -133,6 +133,26 @@ table{
     width: 128px;
     border-radius: 0;
 }
+.btn-table-limpar{
+    transition: 0;
+    width: 128px;
+    border-radius: 0;
+}
+.btn-table-result{
+    transition: 0;
+    width: 128px;
+    border-radius: 0;
+}
+.btn-table-result:hover{
+    background-color: #6df44b;
+    text-shadow: 0.0em 0.2em 0.1em #64c438; 
+    border-color: #4b8b32;
+}
+.btn-table-limpar:hover{
+    background-color: #f44b4b;
+    text-shadow: 0.0em 0.2em 0.1em #c43838; 
+    border-color: #8b3232;
+}
 #idResposta2{
  text-align: right;
  font-size: 30px;
@@ -146,6 +166,23 @@ table{
     width: 512px;
     color: #000000;
     margin: auto;
+}
+/* <<<<<Calculadora de primeiro grau>>>>> */
+.blococalc1 p{
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    font-family: "AudioWide";
+}
+.blococalc1{
+    background-image: url(../img/dhru-j-VT-dBtF8kb0-unsplash.jpg);
+    background-size: cover;
+    height: 95vh;
+}
+.calc1-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 /* <<<<<COMEÇO DO CABEÇALHO>>>>> */
 header{

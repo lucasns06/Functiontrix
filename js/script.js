@@ -47,6 +47,22 @@ function eq(){
 function limpar(){
     document.getElementById("idResposta").innerText = "";
 }
+/* calculadora de 1 grau*/
+function eq2(){
+    var n1 = parseFloat(document.getElementById("n1").value);
+    var n2 = parseFloat(document.getElementById("n2").value); 
+    var resultado
+    if(n1 > 0)
+    {
+        resultado = n2 - n1;
+    }else{
+        resultado = n2 + (n1 ** -1);  
+    }
+    document.getElementById("idResposta3").innerHTML = `x = ${resultado}`;
+}
+function limpar3(){
+    document.getElementById("idResposta3").innerHTML = "";
+}
 /* Temas da página */
 function claro(){
     var body = document.querySelector(".bodyCalculadora");
