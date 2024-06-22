@@ -187,7 +187,7 @@ text-align: center;
 }
 /* <<<<<COMEÇO DO CABEÇALHO>>>>> */
 header{
-    background-color: #151515;
+    background-color: none;
     display: flex;
     height: 72px;
     align-items: center;
@@ -245,7 +245,6 @@ nav ul li{
 /* <<<<<Fim do cabeçalho>>>>>
 <<<<<BLOCO 2>>>>> */
 .bloco1{
-    box-shadow: inset 0px 2px 5px #1d1d1d;
     background: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.0)),  url(../img/dhru-j-VT-dBtF8kb0-unsplash.jpg);
     background-size: cover;
     height: 100vh;
@@ -412,4 +411,9 @@ nav ul li{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+/* materiais */
+.materiaisbloco{
+    text-align: center;
+    p{color: white; font-size: 64px; font-family: "Oswald";}
 }
