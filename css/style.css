@@ -178,6 +178,7 @@ table{
     background-image: url(../img/dhru-j-VT-dBtF8kb0-unsplash.jpg);
     background-size: cover;
     height: 95vh;
+text-align: center;
 }
 .calc1-container{
     display: flex;
@@ -305,6 +306,7 @@ nav ul li{
     background-image: url(../img/triangle\ \(black\).jpg);
     background-size: cover;
     padding: 196px 0px 196px 0px;
+    text-align: center;
 }
 .bloco4 p{
     font-family: "Audiowide", sans-serif;
