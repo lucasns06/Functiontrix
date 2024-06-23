@@ -209,6 +209,7 @@ header{
 }
 .perfil:hover{
     border: 1px solid #4B8BF4;
+
 }
 .hidden{
     display: none;
@@ -238,6 +239,7 @@ nav ul a{
 }
 nav ul a:hover{
     color: #4B8BF4;
+    li img{transform: translate(0px, 3px); transition: all 0.3s;}
 }
 nav ul img{
     padding-right: 4px;
