@@ -27,7 +27,7 @@
     transition: all 0.2s;
     outline: 4px solid #4B8BF4;
     color: #4B8BF4;
-    transform: translate(0px, 10px);
+    transform: scale(1.1);
 }
 .produtos a{
     text-decoration: none;
@@ -243,23 +243,61 @@ nav ul li{
     font-family: "Oswald";
 }
 /* <<<<<Fim do cabeçalho>>>>>
-<<<<<BLOCO 2>>>>> */
-.bloco1{
-    background: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.0)),  url(../img/dhru-j-VT-dBtF8kb0-unsplash.jpg);
+/* <<<<<Produtos>>>>> */
+.produtos-cont{
+    background-image: url(../img/bloco3fundo.jpg);
     background-size: cover;
-    height: 100vh;
+    background-position: 60%;
     text-align: center;
+    p{color: white;};
+    height: 100vh;
+}
+.produtos-cont p{
+    font-family: "Oswald";
+    font-size: 72px;
+}
+/* <<<<<Produtos>>>>> */
+/*<<<<<BLOCO 2>>>>> */
+.corpo-bloco1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.corpo-bloco1 img{
+    width: 512px;
+    height: 512px;
+    border-radius: 100px;
+    filter: invert(48%) sepia(92%) saturate(1792%) hue-rotate(159deg) brightness(91%) contrast(102%);
+    animation: cores 1s infinite alternate;
+}
+@keyframes cores {
+    100%{filter: invert(16%) sepia(46%) saturate(6734%) hue-rotate(204deg) brightness(95%) contrast(98%);}
+}
+.gradient{
+    width: max-content;
+}
+.bloco1{
+    background-image: url(../img/backgr.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: left;
 }
 .bloco1 p{
-    padding-top: 62px;
     color: white;
     font-size: 92px;
     font-family: 'Audiowide', sans-serif;
     animation: abl1 1s infinite alternate;  
 }
-
+.gradient button{
+    border-radius: 28px;
+    padding: 20px;  
+    width: max-content;
+    transform: translate(50%);
+}
 @keyframes abl1 {
-    100%{transform: translate(0px, 10px);}
+    100%{transform: translate(0px, 5px);}
 }
 /* <<<<<FIM DO BLOCO 2>>>>>
 
