@@ -1,15 +1,15 @@
 # Functiontrix
 O site é de uma empresa de matemática fictícia "Functiontrix" feito por um estudante do curso técnico de **Desenvolvimento de sistemas**.
 😃
-# Dentro do site
-
+# Página inicial do site
+<img src="img\ReadmeImagens\inicio.png">
 <img src="img\ReadmeImagens\Readme_Menu.JPG">
 
-A Functiontrix possui 3 abas: Início, Sobre e Calculadora;
+A Functiontrix possui 3 abas: Início, Sobre e Materiais;
 
 - Início: Explicação de como funciona a Equação de segundo grau.
 - Sobre: Quem somos, equipes e produtos da Functiontrix.
-- Calculadora: O produto da empresa, a calculadora de equação de segundo grau.
+- Materiais: Explicação da equação de 1º e 2º grau
 
 # Calculadora
 
