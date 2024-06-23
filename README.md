@@ -3,15 +3,13 @@ O site é de uma empresa de matemática fictícia "Functiontrix" feito por um es
 😃
 # Página inicial do site
 <img src="img\ReadmeImagens\inicio.png">
-<img src="img\ReadmeImagens\Readme_Menu.JPG">
-
 A Functiontrix possui 3 abas: Início, Sobre e Materiais;
 
-- Início: Explicação de como funciona a Equação de segundo grau.
+- Início: Página inicial
 - Sobre: Quem somos, equipes e produtos da Functiontrix.
 - Materiais: Explicação da equação de 1º e 2º grau
 
-# Calculadora
+# Calculadora de 2º grau
 
 Digite os valores de (a,b,c) da equação e aperte no botão calcular. <br>
 Caso tenha um "0" em quaisquer dos valores (a,b,c) a calculadora irá apontar que a equação não é de segundo grau. (com o texto em vermelho)  <br>
