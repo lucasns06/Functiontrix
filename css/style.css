@@ -270,16 +270,6 @@ nav ul li{
     align-items: center;
     justify-content: space-around;
 }
-.corpo-bloco1 img{
-    width: 512px;
-    height: 512px;
-    border-radius: 100px;
-    filter: invert(48%) sepia(92%) saturate(1792%) hue-rotate(159deg) brightness(91%) contrast(102%);
-    animation: cores 1s infinite alternate;
-}
-@keyframes cores {
-    100%{filter: invert(16%) sepia(46%) saturate(6734%) hue-rotate(204deg) brightness(95%) contrast(98%);}
-}
 .gradient{
     width: max-content;
 }
