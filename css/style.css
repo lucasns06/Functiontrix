@@ -19,7 +19,8 @@
 .produtos{
     width: 256px;
     height: 256px;
-    background-color: white;
+    background-image: url(../img/Calculadora.jpg);
+    background-size: cover;
     border-radius: 22px;
     outline: 4px solid white;
 }
@@ -29,12 +30,16 @@
     color: #4B8BF4;
     transform: scale(1.1);
 }
-.produtos a{
+.container-produtos a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     list-style: none;
     font-family: "Oswald";
     font-weight: bold;
+    font-size: 26px;
+}
+.produtos a li{
+    transform: translate(0px, 250%);
 }
 
 /* <<<<<Mudar Tema>>>>> */
@@ -245,9 +250,9 @@ nav ul li{
 /* <<<<<Fim do cabeçalho>>>>>
 /* <<<<<Produtos>>>>> */
 .produtos-cont{
-    background-image: url(../img/bloco3fundo.jpg);
+    background-image: url(../img/backgr.jpg);
     background-size: cover;
-    background-position: 60%;
+    background-position: bottom;
     text-align: center;
     p{color: white;};
     height: 100vh;
@@ -452,6 +457,10 @@ nav ul li{
 }
 /* materiais */
 .materiaisbloco{
+    background-image: url(../img/backgr.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     p{color: white; font-size: 64px; font-family: "Oswald";}
 }
