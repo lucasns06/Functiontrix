@@ -88,7 +88,7 @@ button, .btn-form, .btn-form-limpar{
     padding: 5px;
     color: #4B8BF4;
     background-color: #EFEFFF;
-    font-family: "Audiowide", sans-serif;
+    font-family: "Oswald";
     width: 256px;
     cursor: pointer;
     border: 1px solid #4B8BF4;
@@ -117,8 +117,7 @@ button:hover, .btn-form:hover{
     margin: auto;
 }
 .bodyCalculadora input{
-    padding: 5px;
-    height: 48px;
+    padding: 10px;
     width: 548px;
     background-color: #E2E2EB;
 }
@@ -252,7 +251,7 @@ nav ul li{
 /* <<<<<Fim do cabeçalho>>>>>
 /* <<<<<Produtos>>>>> */
 .produtos-cont{
-    background-color: #151515;
+    background: linear-gradient(10deg, rgba(19,21,22,1) 0%, rgba(13,17,24,1) 100%);
     text-align: center;
     p{color: white;};
     height: 100vh;
@@ -262,22 +261,17 @@ nav ul li{
     font-size: 72px;
 }
 /* <<<<<Produtos>>>>> */
-/*<<<<<BLOCO 2>>>>> */
-.corpo-bloco1{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.gradient{
+/*<<<<<BLOCO 1>>>>> */
+.paginicial{
     width: max-content;
+    margin: auto;
+    text-align: center;
 }
 .bloco1{
-    background-image: url(../img/backgr.jpg);
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(../img/backgroundinicial.png);
+    background-size: contain;
+    background-repeat: round;
     height: 100vh;
-    text-align: left;
 }
 .bloco1 p{
     color: white;
@@ -285,11 +279,10 @@ nav ul li{
     font-family: 'Audiowide', sans-serif;
     animation: abl1 1s infinite alternate;  
 }
-.gradient button{
+.paginicial button{
     border-radius: 28px;
-    padding: 20px;  
-    width: max-content;
-    transform: translate(50%);
+    padding: 16px;  
+    width: 256px;
 }
 @keyframes abl1 {
     100%{transform: translate(0px, 5px);}
@@ -445,7 +438,7 @@ nav ul li{
 }
 /* materiais */
 .materiaisbloco{
-    background-color: #151515;
+    background: linear-gradient(10deg, rgba(19,21,22,1) 0%, rgba(13,17,24,1) 100%);
     text-align: center;
     p{color: white; font-size: 64px; font-family: "Oswald";}
 }
