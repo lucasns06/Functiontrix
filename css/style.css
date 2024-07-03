@@ -368,23 +368,19 @@ nav ul li{
 
 <<<<<RODAPE>>>>> */
 .rodape{
-    background-color: #242424;
+    background-color: #080808;
     display: flex;
     justify-content: space-between;
-    padding: 42px;
+    padding: 112px;
+    align-items: top;
 }
 .rodape p{
     color: white;
     font-size: 20px;
+    font-family: "Oswald";
 }
-.rodape-img{
-    display: flex;
-}
-.rodape-img a{
-    display: flex;
-}
-.curso{
-   align-content: center;
+.rodape a{
+    transform: translate(0px, 30%);
 }
 /* <<<<<FIM DO RODAPE>>>>>
 <<<<<QUEM SOMOS>>>>> 
