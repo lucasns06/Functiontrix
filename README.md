@@ -2,7 +2,7 @@
 O site é de uma empresa de matemática fictícia "Functiontrix" feito por um estudante do curso técnico de **Desenvolvimento de sistemas**.
 😃
 # Página inicial do site
-<img src="img\ReadmeImagens\inicio.png">
+<img src="img\ReadmeImagen9s\inicio.png">
 A Functiontrix possui 3 abas: Início, Sobre e Materiais;
 
 - Início: Página inicial
