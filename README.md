@@ -1,21 +1,6 @@
-# Functiontrix
-O site é de uma empresa de matemática fictícia "Functiontrix" feito por um estudante do curso técnico de **Desenvolvimento de sistemas**.
-😃
-# Página inicial do site
-<img src="img\ReadmeImagen9s\inicio.png">
-A Functiontrix possui 3 abas: Início, Sobre e Materiais;
+<h1 align="center">Functiontrix</h1>
 
-- Início: Página inicial
-- Sobre: Quem somos, equipes e produtos da Functiontrix.
-- Materiais: Explicação da equação de 1º e 2º grau
+- Site feito no primeiro módulo do curso de Desenvolvimento de Sistemas
+<img src="img\ReadmeImagens\tela_inicial.png">
 
-# Calculadora de 2º grau
 
-Digite os valores de (a,b,c) da equação e aperte no botão calcular. <br>
-Caso tenha um "0" em quaisquer dos valores (a,b,c) a calculadora irá apontar que a equação não é de segundo grau. (com o texto em vermelho)  <br>
-Caso o valor do delta (explicado no site) seja negativo, o site ira apontar que não existe soluções reais.  <br>
-
-Você pode mudar o tema do fundo da calculadora para: **claro** ou **escuro**. <br>
-<img src="img\ReadmeImagens\Readme_Tema.JPG">
-<img src="img\ReadmeImagens\Readme_Calculadora_Escuro.JPG" width="256px" height="256px">
-<img src="img\ReadmeImagens\Readme_Calculadora_Branco.JPG" width="256px" height="256px">
