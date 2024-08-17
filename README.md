@@ -22,7 +22,7 @@ HTML consiste em manipulação de conteiners e conteiners dentro de conteiners �
   justify-content: space-around;
 }
 ```
-> JavaScript, calcudo de Equação de segundo grau
+> JavaScript, calculo de Equação de segundo grau
 ```js
 function eq(){
     var a = parseFloat(document.getElementById("num1").value);
