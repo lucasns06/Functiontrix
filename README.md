@@ -8,10 +8,7 @@
 <img src="img\ReadmeImagens\produtos.png">
 
 ## Conteúdo
-Site feito com o intuito de aprender conceitos de HTML, CSS e JavaScript, ou seja, **Front End**.
-
-HTML consiste em manipulação de conteiners e conteiners dentro de conteiners 🗃️
-
+Site feito com o intuito de aprender conceitos de HTML, CSS e JavaScript.
 
 > Comandos de css que eu mais usei durante a criação do site:
 ```css
